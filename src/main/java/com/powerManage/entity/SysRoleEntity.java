@@ -8,9 +8,9 @@ import java.util.List;
 /**
  * 角色
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:27:38
+ * @author wangshuai
+ * @email shuaiwang126@163.com
+ * @date 2017年9月18日 上午9:27:38
  */
 public class SysRoleEntity implements Serializable {
 	private static final long serialVersionUID = 1L;

@@ -3,9 +3,6 @@ $.jgrid.defaults.width = 1000;
 $.jgrid.defaults.responsive = true;
 $.jgrid.defaults.styleUI = 'Bootstrap';
 
-// 自定义组件注册(requireJS, requireCSS, requireImg)
-window.RM = {};
-
 //工具集合Tools
 window.T = {};
 

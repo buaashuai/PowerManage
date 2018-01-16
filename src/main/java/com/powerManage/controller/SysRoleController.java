@@ -21,9 +21,9 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 角色管理
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年11月8日 下午2:18:33
+ * @author wangshuai
+ * @email shuaiwang126@163.com
+ * @date 2017年11月8日 下午2:18:33
  */
 @RestController
 @RequestMapping("/sys/role")

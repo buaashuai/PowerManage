@@ -9,9 +9,9 @@ import java.util.Map;
 /**
  * 菜单管理
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:42:16
+ * @author wangshuai
+ * @email shuaiwang126@163.com
+ * @date 2017年9月18日 上午9:42:16
  */
 public interface SysMenuService {
 	

@@ -3,9 +3,9 @@ package com.powerManage.utils.generator;
 /**
  * 列的属性
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年12月20日 上午12:01:45
+ * @author wangshuai
+ * @email shuaiwang126@163.com
+ * @date 2017年12月20日 上午12:01:45
  */
 public class ColumnEntity {
 	//列名

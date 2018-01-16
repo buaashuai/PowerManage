@@ -21,9 +21,9 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * 系统用户
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:46:09
+ * @author wangshuai
+ * @email shuaiwang126@163.com
+ * @date 2017年9月18日 上午9:46:09
  */
 @Service("sysUserService")
 public class SysUserServiceImpl implements SysUserService {

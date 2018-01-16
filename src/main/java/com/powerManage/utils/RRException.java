@@ -3,9 +3,9 @@ package com.powerManage.utils;
 /**
  * 自定义异常
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年10月27日 下午10:11:27
+ * @author wangshuai
+ * @email shuaiwang126@163.com
+ * @date 2017年10月27日 下午10:11:27
  */
 public class RRException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

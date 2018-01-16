@@ -42,7 +42,9 @@
         }
 
     };
-
-    window.RM.requireImg = require;// window.RM 在webapp/js/index.js中注册的
+    if (!window.PM) {
+        window.PM = {};
+    }
+    window.PM.requireImg = require;
 
 })();

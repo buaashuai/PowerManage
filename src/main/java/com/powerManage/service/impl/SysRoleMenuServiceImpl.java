@@ -16,9 +16,9 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * 角色与菜单对应关系
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:44:35
+ * @author wangshuai
+ * @email shuaiwang126@163.com
+ * @date 2017年9月18日 上午9:44:35
  */
 @Service("sysRoleMenuService")
 public class SysRoleMenuServiceImpl implements SysRoleMenuService {

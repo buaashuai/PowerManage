@@ -56,7 +56,9 @@
             head.insertBefore(node, baseElement) :
             head.appendChild(node);
     };
-
-    window.RM.requireJS = require;// window.RM 在webapp/js/index.js中注册的
+    if (!window.PM) {
+        window.PM = {};
+    }
+    window.PM.requireJS = require;
 
 })();

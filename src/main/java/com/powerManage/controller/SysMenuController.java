@@ -22,9 +22,9 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 系统菜单
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年10月27日 下午9:58:15
+ * @author wangshuai
+ * @email shuaiwang126@163.com
+ * @date 2017年10月27日 下午9:58:15
  */
 @RestController
 @RequestMapping("/sys/menu")

@@ -21,9 +21,9 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 定时任务
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年11月28日 下午2:16:40
+ * @author wangshuai
+ * @email shuaiwang126@163.com
+ * @date 2017年11月28日 下午2:16:40
  */
 @RestController
 @RequestMapping("/sys/schedule")

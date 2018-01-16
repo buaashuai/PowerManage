@@ -8,9 +8,9 @@ import org.springframework.util.ReflectionUtils;
 /**
  * 执行定时任务
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年11月30日 下午12:49:33
+ * @author wangshuai
+ * @email shuaiwang126@163.com
+ * @date 2017年11月30日 下午12:49:33
  */
 public class ScheduleRunnable implements Runnable {
 	private Object target;
