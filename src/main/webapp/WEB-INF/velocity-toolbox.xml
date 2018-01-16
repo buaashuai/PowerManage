@@ -4,6 +4,6 @@
 	<tool>
 	    <key>shiro</key>
 	    <scope>application</scope>
-	    <class>io.renren.shiro.VelocityShiro</class>
+	    <class>com.powerManage.shiro.VelocityShiro</class>
 	</tool>
 </toolbox>

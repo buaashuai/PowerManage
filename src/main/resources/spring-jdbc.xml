@@ -56,6 +56,6 @@
 	</bean>
 
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="io.renren.dao" />
+		<property name="basePackage" value="com.powerManage.dao" />
 	</bean>
 </beans>
