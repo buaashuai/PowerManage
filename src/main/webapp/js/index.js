@@ -1,6 +1,6 @@
 // // 动态加载本页面依赖的 JS
 // var components = [];
-// components.push('js/component/menu_item/index.js');
+// components.push('js/component/menu_item/menuItem.js');
 // window.PM.requireJS(components);
 
 //iframe自适应
