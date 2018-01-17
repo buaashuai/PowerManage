@@ -1,4 +1,4 @@
-package com.powerManage.shiro;
+package com.powerManage.VelocityTool;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;

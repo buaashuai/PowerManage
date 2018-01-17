@@ -4,6 +4,12 @@
 	<tool>
 	    <key>shiro</key>
 	    <scope>application</scope>
-	    <class>com.powerManage.shiro.VelocityShiro</class>
+        <class>com.powerManage.VelocityTool.VelocityShiro</class>
+    </tool>
+
+    <tool>
+        <key>releaseTool</key>
+        <scope>application</scope>
+        <class>com.powerManage.VelocityTool.ReleaseTool</class>
 	</tool>
 </toolbox>

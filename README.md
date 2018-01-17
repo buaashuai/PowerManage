@@ -14,16 +14,25 @@
 - 引入路由机制，刷新页面会停留在当前页
 
 
-项目部署
+项目运行
 
 1、通过git下载源码
 2、创建数据库PowerManager，数据库编码为UTF-8
 3、执行doc/db.sql文件，初始化数据
 4、修改db.properties文件，更新MySQL账号和密码
-5、Eclipse、IDEA执行【clean package tomcat7:run】命令，即可运行项目
+5、Eclipse、IDEA执行【clean package tomcat8:run】命令，即可运行项目
 6、项目访问路径：http://localhost
 7、非Maven方式启动，则默认访问路径为：http://localhost:8080/PowerManager
 8、账号密码：admin/admin
+
+项目部署
+
+在开发环境下项目的js没有经过压缩和混淆，部署的时候需要依照下面的步骤：
+1、把webapp目录中的index.html中的 `<script src="js/bootstrap.js"></script> ` 改为 ` <script src="dest/bootstrap.js"></script> `
+2、把webapp/js目录中的bootstrap.js中的 DEBUG 变量的值改为 false
+3、把com.powerManage.utils包中Constant.java中的DEBUG改为false
+4、在WEB-INFO中打开控制台，运行"npm install", 然后运行"npm run webpack" 压缩并混淆前端资源文件
+5、打包项目部署在Tomcat中即可
 
 ![输入图片说明](http://cdn.renren.io/img/3c744febfa944b26b3b9594ae73d4f80 "在这里输入图片标题")
 ![输入图片说明](http://cdn.renren.io/img/f3cc56b411c542d6aa4c01aaa8513995 "在这里输入图片标题")
@@ -38,9 +47,9 @@
 
 
  **技术选型：** 
-核心框架：Spring Framework 4.2
+核心框架：Spring Framework 4.3.13
 安全框架：Apache Shiro 1.3
-视图框架：Spring MVC 4.2
+视图框架：Spring MVC 4.3.13
 持久层框架：MyBatis 3.3
 定时器：Quartz 2.2
 数据库连接池：Druid 1.0
@@ -54,16 +63,6 @@ MySQL5.5+
 Tomcat7.0+
 Maven3.0+
 
-
-
- **本地部署**
-- 通过git下载源码
-- 创建数据库PowerManager，数据库编码为UTF-8
-- 执行doc/db.sql文件，初始化数据
-- 修改db.properties文件，更新MySQL账号和密码
-- Eclipse、IDEA执行【clean package tomcat7:run】命令，即可运行项目
-- 项目访问路径：http://localhost
-- 非Maven方式启动，则默认访问路径为：http://localhost:8080/PowerManager
-
-**致谢** 
-项目参考了renren-security
+ **致谢** 
+ 
+本项目改编自开源项目 renren-security

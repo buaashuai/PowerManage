@@ -8,6 +8,7 @@ module.exports = {
 
     entry: {
         'index': './index.js',
+        'bootstrap': './bootstrap.js',
         'common': './common/common.js',
         'require_css': './common/require_css.js',
         'require_img': './common/require_img.js',
