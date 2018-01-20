@@ -7,7 +7,7 @@ module.exports = {
     context: path.resolve(__dirname + "/js"),
 
     entry: {
-        'index': './index.js',
+        'index': './sys/index.js',
         'bootstrap': './bootstrap.js',
         'common': './common/common.js',
         'require_css': './common/require_css.js',

@@ -9,7 +9,7 @@ var jsMap = [
     ['dest/common.js', 'js/common/common.js'], //公共js
     ['dest/menuItem.js', 'js/component/menu_item/menuItem.js'], //添加当前页面依赖的组件
     ['dest/utils.js', 'js/common/utils.js'], //工具库
-    ['dest/index.js', 'js/index.js'], //页面的业务逻辑
+    ['dest/index.js', 'js/sys/index.js'], //页面的业务逻辑
 ];
 var jsArr = [];
 _.each(jsMap, function (pair) {
