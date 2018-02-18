@@ -1,5 +1,5 @@
 layui.config({
-  base:'js/'
+    base: 'js/sys/'
 }).use(['navtab'],function(){
 	window.jQuery = window.$ = layui.jquery;
 	window.layer = layui.layer;
@@ -89,7 +89,6 @@ layui.use(['jquery','layer','element'],function(){
 	  }
 	});
 });
-
 
 
 //生成菜单
